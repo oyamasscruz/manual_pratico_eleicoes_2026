@@ -25,7 +25,7 @@ export default function Bio() {
             </p>
           </div>
           <div className="mt-5">
-            <img className="max-w-sm" src={DanubioImg} alt="Foto" />
+            <img className="max-w-sm rounded-md" src={DanubioImg} alt="Foto" />
           </div>
         </div>
       </section>

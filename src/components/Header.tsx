@@ -3,7 +3,7 @@ export default function Header() {
     <>
       <header
         className="
-        relative 
+        fixed top-0 left-0 w-full 
         bg-bg-primary 
         border-b-2 border-transparent [border-image:linear-gradient(to_right,transparent,#d4af37,transparent)_1]
   "
@@ -15,9 +15,9 @@ export default function Header() {
                 MANUAL PRÁTICO PARA AS{" "}
                 <span className="text-font-hero font-bold">ELEIÇÕES 2026</span>
               </h1>
-              <p className="text-gray-400 text-sm mt-1">Danúbio Cardoso Remy</p>
+              <p className="text-text-sug text-sm mt-1">Danúbio Cardoso Remy</p>
             </div>
-            <button className="bg-hover-button transition-colors ease-in-out duration-300 p-4 rounded-md text-font-primary font-medium hover:bg-font-hero cursor-pointer">
+            <button className="bg-hover-button transition-colors ease-in-out duration-300 p-4 rounded-md text-text-btn font-medium hover:bg-font-hero cursor-pointer">
               Garantir meu exemplar
             </button>
           </div>
