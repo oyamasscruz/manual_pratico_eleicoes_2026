@@ -3,10 +3,10 @@ import DanubioImg from "../assets/danubio-cadeira.jpg";
 export default function Bio() {
   return (
     <>
-      <section className="bg-bg-primary h-auto ">
-        <div className="max-w-5xl mx-auto py-10 px-6 flex justify-between gap-10">
+      <section className="bg-bg-primary h-auto">
+        <div className="max-w-5xl mx-auto py-10 px-6 flex flex-col md:flex-row items-center md:items-start justify-between gap-8 md:gap-10 text-center md:text-left">
           <div className="mt-5">
-            <h3 className="text-2xl text-font-primary font-bold">
+            <h3 className="text-2xl text-font-primary font-bold md:text-center">
               Quem é o{" "}
               <span className="text-font-hero font-bold">
                 Danubio Cardoso Remy
@@ -25,7 +25,11 @@ export default function Bio() {
             </p>
           </div>
           <div className="mt-5">
-            <img className="max-w-sm rounded-md" src={DanubioImg} alt="Foto" />
+            <img
+              className="w-full max-w-xs rounded-md md:max-w-sm shrink-0"
+              src={DanubioImg}
+              alt="Foto"
+            />
           </div>
         </div>
       </section>

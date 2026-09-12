@@ -61,7 +61,7 @@ export default function Solution() {
               className="flex items-start gap-4"
             >
               {/* Ícone */}
-              <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-bg-primary text-font-hero font-bold">
+              <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-bg-primary text-font-hero font-bold">
                 ✓
               </span>
 
