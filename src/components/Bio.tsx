@@ -4,8 +4,16 @@ export default function Bio() {
   return (
     <>
       <section className="bg-bg-primary h-auto">
-        <div className="max-w-5xl mx-auto py-10 px-6 flex flex-col md:flex-row items-center md:items-start justify-between gap-8 md:gap-10 text-center md:text-left">
-          <div className="mt-5">
+        <div
+          className="max-w-5xl mx-auto
+          px-6 py-16
+          flex flex-col
+          md:flex-row
+          items-center
+          md:items-center
+          gap-10"
+        >
+          <div className="w-full md:w-3/5">
             <h3 className="text-2xl text-font-primary font-bold md:text-center">
               Quem é o{" "}
               <span className="text-font-hero font-bold">

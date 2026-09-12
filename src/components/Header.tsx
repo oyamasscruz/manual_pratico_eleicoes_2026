@@ -20,9 +20,14 @@ export default function Header() {
               </p>
             </div>
             <div>
-              <button className="bg-hover-button w-full md:w-auto transition-colors ease-in-out duration-300 px-8 py-3 rounded-md text-text-btn font-medium hover:bg-font-hero cursor-pointer md:items-center">
+              <a
+                href="https://hotmart.com/pt-br/marketplace/produtos/manual-pratico-para-as-eleicoes-2026/D105870888W "
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-hover-button w-full md:w-auto transition-colors ease-in-out duration-300 px-8 py-3 rounded-md text-text-btn font-medium hover:bg-font-hero cursor-pointer md:items-center"
+              >
                 Garantir meu exemplar
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function Card() {
                 Compre na Hotmart
               </h3>
               <p className="mt-4 text-4xl font-bold text-font-hero text-center">
-                R$ 59,80
+                R$ 59,90
               </p>
               <ul className="mt-8 space-y-4">
                 <li>Acesso imediato ao eBook</li>
@@ -27,9 +27,14 @@ export default function Card() {
                 <li>Consulta prática durante a campanha</li>
                 <li>Material desenvolvido para candidatos e assessores</li>
               </ul>
-              <button className="mt-10 bg-hover-button transition-colors ease-in-out duration-300 p-4 rounded-md text-text-btn font-medium hover:bg-font-hero cursor-pointer">
+              <a
+                href="https://hotmart.com/pt-br/marketplace/produtos/manual-pratico-para-as-eleicoes-2026/D105870888W "
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center mt-10 bg-hover-button transition-colors ease-in-out duration-300 p-4 rounded-md text-text-btn font-medium hover:bg-font-hero cursor-pointer"
+              >
                 Compre agora
-              </button>
+              </a>
               <p
                 className="text-center mt-6 text-sm"
                 style={{ color: "#4B5850" }}
